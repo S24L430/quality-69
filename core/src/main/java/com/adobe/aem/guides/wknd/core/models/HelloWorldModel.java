@@ -37,6 +37,7 @@ public class HelloWorldModel {
 
     // public static final String PASSWORD="pass";
 
+    
     @ValueMapValue(name = PROPERTY_RESOURCE_TYPE, injectionStrategy = InjectionStrategy.OPTIONAL)
     @Default(values = "No resourceType")
     protected String resourceType;
